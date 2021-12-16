@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>444,755</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>444,556</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="48">
@@ -65,7 +65,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="454,690" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="454,466" sap2010:WorkflowViewState.IdRef="SequenceX_1">
     <ueab:SequenceX.Variables>
       <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
       <Variable x:TypeArguments="uasb:BindingsRepository" Default="[new UiPath.Activities.System.Binding.BindingsRepository()]" Name="Saved" />
@@ -75,29 +75,18 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="DoubleUI" sap:VirtualizedContainerService.HintSize="412,600" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f8b582b3-8af9-4308-9aab-a43d908269e6" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="DoubleUI" sap:VirtualizedContainerService.HintSize="412,376" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f8b582b3-8af9-4308-9aab-a43d908269e6" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="400,306" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="400,82" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="输入信息 'Cash In'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,215" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Version="V1">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable ContentHash="GmOdlBr9wUWUnzQc0xGQrg" DesignTimeRectangle="333, 169, 120, 23" ElementType="InputBox" FriendlyName="'editable text  cashintb'" FullSelectorArgument="&lt;ctrl automationid='cashintb' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='cashintb' role='editable text' /&gt;" Guid="9d8821a1-63f0-494f-86c5-da6ed51069f4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHwAAAAbCAYAAAC+7+tcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABmSURBVGhD7dExEYAwAAAx/EvhmPBVC4WNBTDQzxAF2cYYFx3CY57w/ThZ2Gf4nJMFCY8RHiM8RniM8BjhMcJjhMcIjxEeIzxGeIzwGOExwmOExwiPER4jPEZ4zG8463qF0yA8ZVw3Veh3q/dvdCsAAAAASUVORK5CYII=" InformativeScreenshot="824543c4f6c0d30ad915712a7d8812ac.png" Reference="NLP0TDQYkUCdjTIPGdYu6Q/pPzaAkMlRUKMxZyZpjirQA" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="259, 166, 58, 26" ElementType="Text" FriendlyName="'Cash In'" FullSelectorArgument="&lt;ctrl name='Cash In' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Cash In' role='text' automationid='' check:text='Cash In' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD4AAAAeCAYAAAB0ba1yAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEsSURBVFhH7ZTBGYMgDEYZio2yDbMwCbs4Q4qAGmKK1vbA1+TwDm0E/heiblkW1IiJa8PEtWHi2jBxbZj4mITBO3TuwIckPPeAFNA7jyEJNYkI+XzAKNU+4Fq8BOOiEWFtAETy30PmFK83Ld7uKXBrBgHi8XwEWiPB2z4A/qj7gGmrc5h4CnkdhG4i70zjWPz2bVRpemAVrQFLOCLT/W4TdUzPea8OSTw/vze51K8zj8W/GSuylot3CM0tTXv3Gkni3d61cXTaJH4szj+C21r6GrDbmFL89qgT4S2w2DTamFabUnz0caMHlPBMcjgtfO104pkSjMvXzfcDefi2Zgt4CkfDTyteaKIEPgUlwF7PwZp8DUBHfIU3aVrx/8PEtWHi2jBxbZi4NpSKL/gCBwX/Vjgj1OcAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
